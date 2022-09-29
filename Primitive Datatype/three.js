@@ -13,3 +13,14 @@ console.log(typeof discount);
 
 console.log(profit);
 console.log(typeof profit);
+
+var a = 10;
+var b = 20;
+var c;
+
+console.log(a+b)
+console.log(typeof (a+b))
+console.log(a-b)
+console.log(typeof (a-b))
+console.log(a+c)
+console.log(c)
