@@ -1,8 +1,4 @@
-let i = 1;
-for (; ;) {
-    if (i <= 10) {
-        console.log("Prabhakaran", i)
-        i++
-    }
-    
+for (i=1;i<=10;i++  )
+{
+    console.log("Prabhu", i);
 }
