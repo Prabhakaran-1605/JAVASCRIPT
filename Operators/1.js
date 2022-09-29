@@ -13,5 +13,3 @@ console.log(a+f);  // 10Prabhakaran
 console.log(d);   // undefined
 console.log(e);   // false
 console.log(a+d);  // Nan - Not a Number
-
-
