@@ -6,7 +6,7 @@ if((a<=b) && (a<=c))
 {
     console.log(a,"a is Least No");
 }
-else if((b<=c)&& (b<=a))
+else if((b<=c) && (b<=a))
 {
     console.log(b, "b is Least No");
 }
