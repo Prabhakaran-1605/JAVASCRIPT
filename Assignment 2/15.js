@@ -1,14 +1,14 @@
 var number = 10;
-let n1 = 0, n2 = 1, nextTerm;
+let a = 0, b = 1, nextTerm;
 
 console.log('Fibonacci Series:');
 
 for (let i = 1; i <= number; i++) {
-    if(n1<=17)
+    if(a<=17)
     {
-    console.log(n1);
+    console.log(a);
     }
-    nextTerm = n1 + n2;
-    n1 = n2;
-    n2 = nextTerm;
+    nextTerm = a + b;
+    a = b;
+    b = nextTerm;
 }
