@@ -4,13 +4,13 @@ var c = 20;
 
 if((a>b) && (a>c))
 {
-    console.log(a,"a is greater");
+    console.log(a,"greater");
 }
 else if((b>c)&& (b>a))
 {
-    console.log(b, "b is greater");
+    console.log(b, "greater");
 }
 else
 {
-console.log(c, "c is greater");
+console.log(c, "greater");
 }

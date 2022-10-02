@@ -4,12 +4,12 @@ var c = 65;
 
 if((a>=b)&&(a>=c))
 {
-    console.log("a is largest" );
+    console.log(" largest No", a );
 }
 else if ((b>=a)& (b>=c))
 {
-    console.log("b is largest");
+    console.log("largest No", b);
 }
 else {
-    console.log("c is largest");
+    console.log("largest No", c);
 }
