@@ -1,6 +1,6 @@
-var a = 3;
-var b = 3;
-var c = 13;
+var a = -100;
+var b = -2;
+var c = 40;
 
 if ((a<=b)&&(a<=c)&&(b<=c))
 {
