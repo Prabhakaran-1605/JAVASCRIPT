@@ -12,6 +12,29 @@ let c = [10,20,30,'Rajini','kamal',{},[],20.5,true]
 //  var a = [10,20,30,40,50]
 // index      0  1  2  3  4   - Indexing concept and it starts from 0.
 // Javascript array is iterable object
-// for(),while(),do{}while(), for ( of )
+// for(),while(),do{} while(), for ( of )
 // negative indexing is not possible
+
+
+// Create 
+
+var d = [10,20,30,40]
+
+// Read
+
+console.log(d);
+
+console.log(d[0]);
+console.log(d[1]);
+console.log(d[2]);
+console.log(d[3]);
+
+//Update
+
+var d = "Rahul"
+d[0] = 49
+d[4] = 34
+
+
+
 
