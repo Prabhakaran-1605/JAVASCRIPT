@@ -9,6 +9,8 @@ let b = [10,20,30,10,10]
 let c = [10,20,30,'Rajini','kamal',{},[],20.5,true] 
 
 //Array elements are going to store in continous memory location based on indexing concept
+//  var a = [10,20,30,40,50]
+// index      0  1  2  3  4   - Indexing concept and it starts from 0.
 // Javascript array is iterable object
 // for(),while(),do{}while(), for ( of )
 // negative indexing is not possible
