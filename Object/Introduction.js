@@ -13,6 +13,9 @@ let a = {
     id: 1605,
     Posting: "Software Engineer" 
 }
+// a -- Object     
+// emp_name, id, Posting   -- Property Name,  
+// 'Prabhakaran', 1605, "Software Engineer" 
 
 //Read
 
