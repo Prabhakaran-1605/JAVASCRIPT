@@ -1,6 +1,6 @@
-var a = -100;
-var b = -2;
-var c = 40;
+var a = -10;
+var b = 10.1;
+var c = 10;
 
 if ((a<=b)&&(a<=c)&&(b<=c))
 {
@@ -8,7 +8,7 @@ if ((a<=b)&&(a<=c)&&(b<=c))
 }
 else if ((b<=c)&&(b<=a)&&(c<=a))
 {
-    console.log(b,c,a);
+    console.log(b,c,a); 
 }
 else if((c<=a)&& (c<=b) && (a<=b))
 {
