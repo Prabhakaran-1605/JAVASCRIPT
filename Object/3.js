@@ -4,7 +4,7 @@ let a = {
     age:27
 }
 console.log(Object.keys(a));    
-// Object  - O will be caps otherwise we wont get an output 
+// Object  - First letter O will be caps otherwise we wont get an output 
 // [ 'id', 'name', 'age' ] will print
 
 console.log(Object.keys(a).length);   
