@@ -1,8 +1,7 @@
 var num = 2678;
 var rem;
 var value = 0;
-
-while(num>=1)
+for (i=1;i<=num;i++)
 {
     rem=num%10;
     value=value*10+rem;
