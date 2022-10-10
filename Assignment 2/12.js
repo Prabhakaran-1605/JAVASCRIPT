@@ -1,4 +1,4 @@
-var num = 2678;
+var num = 783;
 var rem;
 var value = 0;
 for (i=1;num>=1;i++)
