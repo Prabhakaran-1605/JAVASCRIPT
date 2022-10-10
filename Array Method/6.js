@@ -99,9 +99,8 @@ var a = [{"Time":"7:00 AM","Application":"Alphazap","Name of the city":"Aimin","
 {"Time":"9:35 AM","Application":"Viva","Name of the city":"Longtang","email":"smcnicol2q@upenn.edu","gender":"Male","ip_address":"140.7.15.164"},
 {"Time":"1:27 PM","Application":"Domainer","Name of the city":"Shanglian","email":"bjarad2r@mapy.cz","gender":"Male","ip_address":"56.162.189.67"}]
 console.log(a.pop());
-console.log(a.push("Prabhakaran"));
 console.log(a.length);
 for ( x of a)
 {
-    console.log(x);
+    console.log(x.Time);
 }
