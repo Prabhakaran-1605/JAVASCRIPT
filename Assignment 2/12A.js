@@ -1,7 +1,10 @@
+//Alternative method by using while loop
+
+
 var num = 2678;
 var rem;
 var value = 0;
-for (i=1;num>=1;i++)
+while(num>=1)
 {
     rem=num%10;
     value=value*10+rem;
