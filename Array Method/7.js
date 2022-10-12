@@ -1,9 +1,9 @@
-var strings = ["bongo drUms", "guitar",
+var strings = ["bongo dr  ms", "guitar",
   "flute", "double bass", "xylophone", "piano"
 ];
 
 // strings = strings.map(string => string.replace(/[aeiou]/g, ''));
- console.log(strings)
+//  console.log(strings)
 
 
 
