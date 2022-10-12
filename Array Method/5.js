@@ -8,9 +8,9 @@ var data = [{"id":1,"first_name":"Gayle","last_name":"Lefeuvre","email":"glefeuv
 {"id":8,"first_name":"Isabella","last_name":"Reddell","email":"ireddell7@skyrock.com","gender":"Female","ip_address":"146.72.35.15"},
 {"id":9,"first_name":"Melisent","last_name":"Cullrford","email":"mcullrford8@tripod.com","gender":"Female","ip_address":"86.69.110.65"},
 {"id":10,"first_name":"Dalis","last_name":"Sawnwy","email":"dsawnwy9@pcworld.com","gender":"Male","ip_address":"133.240.132.33"}]
-
+        
 for (i=0;i<=9;i++)
-{
+{ 
 console.log(data[i]);    
 }
 console.log(data.length);

@@ -9,7 +9,7 @@ while (temp > 0) {
 
     let remainder = temp % 10;
 
-    sum =sum + remainder ** numberOfDigits;   // we can say power of reminder  1 power 3 -- 3,  
+    sum =sum + remainder ** numberOfDigits;   // ** we can say power of reminder  1 power 3 -- 3,  
 
     // removing last digit from the number
     temp = parseInt(temp / 10);          // convert float into integer

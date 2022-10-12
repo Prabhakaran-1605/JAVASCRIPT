@@ -3,4 +3,4 @@
 var a = [10,20,30,null,true,false]
 console.log(a.push(50));
 console.log(a)
-console.log(a[6]);
+console.log(a[6])
