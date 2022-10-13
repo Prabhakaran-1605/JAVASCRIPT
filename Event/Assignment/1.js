@@ -24,5 +24,5 @@ function inputclick() {
 }
 function lowertouppercase() {
 
-    document.getElementById("555").type.value=document.getElementById("555").type.value.toLowerCase();
+    document.getElementById("555").value =document.getElementById("555").value.toUpperCase() ;
 }
