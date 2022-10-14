@@ -111,9 +111,11 @@ for (a of users)
     <td>${a.id}</td>
     <td>${a.first_name}</td>
     <td>${a.email}</td>
-    <td>${a.gender.substr(0, 1)}</td>      //substr(0,1)
+    <td>${a.gender.substr(0, 1)}</td>            
     <td>${a.City}</td>
     </tr>`
 }    
 document.getElementById("1").innerHTML = rows
 }
+
+// substr(0,1)
