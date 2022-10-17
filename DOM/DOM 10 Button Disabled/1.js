@@ -8,6 +8,7 @@ function register()
     if((username.length<5)||(password.length<8))
     {
         button.disabled = true
+        button.style = "background-color:aqua; , color:white;"
     }
     if((username.length>5)&&(password.length>8))
     {
