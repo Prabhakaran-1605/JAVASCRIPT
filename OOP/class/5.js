@@ -7,7 +7,7 @@ class Account
     { 
         console.log("Account has been opened Successfully")
     }
-    deposited_Amount(Cash)
+    deposited_Amount(Cash)                    // Cash is a parameter stores the value that has been given in the argument
     {
         return this.Amount=Cash               // "this" keyword is used to access the class member. 
                                               // inside the class to access the class member       
@@ -34,8 +34,8 @@ console.log( b.deposited_Amount(7000))              // 7000
 console.log(b.get_balance())                         // 9000 
 
 console.log("********Third Object*************")
-let c = new Account()     // New Empty Object - Account{} has been created with a variable reference b.
-console.log(c)             //  Object b-  Account{} with property name & property value will print.
-b.deposited_Amount(9000)                            // 9000 is an argument
+let c = new Account()     // New Empty Object - Account{} has been created with a variable reference c.
+console.log(c)             //  Object c-  Account{} with property name & property value will print.
+c.deposited_Amount(9000)                            // 9000 is an argument
 console.log( c.deposited_Amount(9000))              // 9000
 console.log(c.get_balance())                         // 11000 
