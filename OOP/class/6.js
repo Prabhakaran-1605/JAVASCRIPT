@@ -4,7 +4,7 @@
 
 // Construct is a method - execute automatically at the object creation
 // We can't execute constructor method explicitely
-//Constructor Method - we can't invoke after one time
+//Constructor Method - we can't invoke
 
 
 class Account                        // This class contains properties and two methods( constructor(id,Name,Amount) & get_Amount() )
@@ -30,6 +30,12 @@ console.log(a.get_Amount())
 let b = new Account (101, "prabhuji", 10000)
 console.log(b)
 console.log(b.get_Amount())
+a.constructor(id,Name,Amount)  
+console.log(a.constructor())
+
+
+
+
 
 
 

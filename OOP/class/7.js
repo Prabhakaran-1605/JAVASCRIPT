@@ -2,12 +2,9 @@
 
 
 
-class Account                        // This class contains properties and two methods( constructor(id,Name,Amount) & get_Amount() )
+class Account                       
 {                                
-    Acc_id;                          //  Properties  - Acc_id; Acc_Name; Acc_amount;
-    Acc_Name;
-    Acc_amount;
-
+    
 constructor(id,Name,Amount)         // Constructor is a special method
 {
 this.Acc_id = id;
