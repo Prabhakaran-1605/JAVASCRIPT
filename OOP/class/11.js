@@ -1,18 +1,20 @@
-class Account
+class Account                               // Parent class
 {
-constructor(id,amount)
+constructor(id,amount)                       // Constructor is used to initialize object values     id & amount are parameters
 {
-    this.acc_Id = id
+    this.acc_Id = id                          // "this" is a keyword pointing towards current object
+                                              // "this" keyword is used to access the class member inside the class.  acc_ID & acc_Amount are class members.
     this.acc_Amount = amount
 }
 }
 
-class Saving_account extends Account
+class Saving_account extends Account          // child class 
 {
-    constructor(id, name, amount, email)
+    constructor(id, name, amount, email)      // Constructor is used to initialize object values     id, name,amount, email are parameters
     {
-    super(id,amount)
-    this.acc_Name = name;
+    super(id,amount)                           // Super ( ) keyword is used to invoke parent class constructor
+    this.acc_Name = name;                     // "this" is a keyword pointing towards current object
+                                              // "this" keyword is used to access the class member inside the class.  acc_Name & acc_Email are class members.
     this.acc_Email = email;
     }
 }
