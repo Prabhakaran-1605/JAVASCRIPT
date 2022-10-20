@@ -1,16 +1,17 @@
-var input = document.getElementById("calculation")
-
-function userclickbutton(input)
+function userclickbutton(num)
 {
-    console.log(input)
+    document.getElementById("Calculation").value+=num
+    return false
 }
-
-function calculatevalue()
+function compute()
 {
-
+    let x=document.getElementById("calculation").value
+    let y=eval(x)                                             //eval performs operation
+    document.getElementById("calculation").value=y
+    return false
 }
-
-function cleardata()
+function clr()
 {
-input.value ="";
+    document.getElementById("calculation").value=""
+    return false
 }
