@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+
+</head>
+
+<body onload="display()">
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Employee Details</a></nav>
+        <h3 class="text-center mt-4"> Employee details in table format using forEach - Array Method </h3>
+    </nav>
+    
+    <div class="container-fluid mt-5">
+        <div class="row margin">
+            <div class="col-md-6">
+                <table class="table table-striped table-dark ">
+                    <thead>
+                        <th> ID </th>
+                        <th> Name </th>
+                        <th> Mail ID</th>
+                    </thead>
+                    <tbody id="table_body">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+
+<script type="text/javascript">
+    let employees = [{ id: 101, name: "Rahul", email: "rahul@gmail.com" },
+    { id: 102, name: "Sonia", email: "sonia@gmail.com" },
+    { id: 103, name: "Priyanka", email: "p@gmail.com" },
+    { id: 104, name: "Modi", email: "Modi@gmail.com" }]
+    function display() {
+        let rows = ""
+        employees.forEach((employee) => {
+
+            rows = rows + `<tr> 
+            <td>${employee.id}</td>
+            <td>${employee.name}</td>
+            <td>${employee.email}</td>
+            </tr>`
+        })
+        document.getElementById("table_body").innerHTML = rows
+
+    }
+
+</script>
+
+</html>
