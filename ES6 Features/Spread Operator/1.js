@@ -10,6 +10,14 @@ console.log(c)
 
 // Extending of an array element
 
-var b = [...a,30,40,50,50]
+var mark = [...a,30,40,50,50]
 
-console.log(b)
+console.log(mark)
+
+var e = [10,30,[10,[30,[40]]]]
+
+var d = [...e]
+
+console.log( d)
+
+console.log(d[2])
