@@ -10,12 +10,13 @@ let cars = [{"car_make":"Eagle","car_model":"Vision","car_model_year":1993,"colo
 {"car_make":"Chevrolet","car_model":"Bel Air","car_model_year":1967,"color":"Mauv"}]
 
 let new_cars = []
-for(i=0;i<cars.length;i++)
-{
-if
+for(i=0;i<cars.length;i++)                    // for condition is used to do the iteration   cars.length = 10 
+{                                             // During iteration initialization of i will be 0 and it is because of indexing value always starts with 0. 
+if                                            // If we want to know total no of elements or object in an array or array final indexing value then it should be (array.length-1)
 (cars[i].car_model_year < 2000)
 {
-new_cars.push(cars[i])
+new_cars.push(cars[i])                        // push method is used to append the element or object to the last of an array  ( new_cars[] )
+}
 }
 }
 console.log(new_cars)

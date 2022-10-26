@@ -9,15 +9,15 @@ let cars = [{"car_make":"Eagle","car_model":"Vision","car_model_year":1993,"colo
 {"car_make":"Toyota","car_model":"Tercel","car_model_year":1993,"color":"Puce"},
 {"car_make":"Chevrolet","car_model":"Bel Air","car_model_year":1967,"color":"Mauv"}]
 
-let new_cars=[]
+let new_cars=[]                                       // Empty Array
 
-let i = 0;
-while(i<cars.length)
-{
-    if(cars[i].car_make== "Chevrolet")
+let i = 0;                                            // Initialization 
+while(i<cars.length)                                  // Condition
+{  
+    if(cars[i].car_make == "Chevrolet")                // == Operation
     {
-    new_cars.push(cars[i])
+    new_cars.push(cars[i])                             // push method is used to append the element or object to the last of an array  ( new_car[] )
     }
-    i++
+    i++                                               // Increament
 }
 console.log(new_cars)

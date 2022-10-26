@@ -9,14 +9,14 @@ let cars = [{"car_make":"Eagle","car_model":"Vision","car_model_year":1993,"colo
 {"car_make":"Toyota","car_model":"Tercel","car_model_year":1993,"color":"Puce"},
 {"car_make":"Chevrolet","car_model":"Bel Air","car_model_year":1967,"color":"Mauv"}]
 
-let new_car=[];
-let i = 0;
-do{
-    if(cars[i].car_model== "Monte Carlo")
+let new_car=[];                            // -- Empty Array
+let i = 0;                                 // Iterating using do while
+do{                                         
+    if(cars[i].car_model != "Monte Carlo")          // !=  -- Relational operator
     {
-        new_car.push(cars[i])
+        new_car.push(cars[i])                        // push method is used to append the element or object to the last of an array  ( new_car[] )
     }
-i++
-}while(i < cars.length)
+i++                                                   // Increment
+}while(i < cars.length)                               // Condition
 
-console.log(new_car)
+console.log(new_car)                             
