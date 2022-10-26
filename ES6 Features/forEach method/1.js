@@ -12,3 +12,5 @@ ids.forEach( (id)=> {console.log(id) })
 // 103
 // 103
 // 104
+
+//If return is given then it will return "undefined" in "forEach method"
