@@ -18,5 +18,5 @@ if                                            // If we want to know total no of 
 new_cars.push(cars[i])                        // push method is used to append the element or object to the last of an array  ( new_cars[] )
 }
 }
-}
+
 console.log(new_cars)

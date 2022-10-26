@@ -29,5 +29,5 @@ for ( car of cars)                       // car of cars  : car is an property na
         new_car.push(car)                // push method is used to append the element or object to the last of an array  ( new_car[] )
     }
     }
-}
+
 console.log(new_car)
