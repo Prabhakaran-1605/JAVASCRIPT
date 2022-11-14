@@ -12,7 +12,7 @@ return a*b
 
 let calc = (a,b,callbackfunction) =>
 {
-return callbackfunction(a,b)
+return callbackfunction()
 }
 let a1 = calc(10,20,sum)
 console.log(a1)

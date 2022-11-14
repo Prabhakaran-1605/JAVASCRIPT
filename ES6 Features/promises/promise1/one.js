@@ -1,3 +1,6 @@
+// The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
+
+
 let employees = [{ id: 101, name: "Rahul", sal: 45000 },
 { id: 102, name: "Sonia", sal: 55000 }]
 
