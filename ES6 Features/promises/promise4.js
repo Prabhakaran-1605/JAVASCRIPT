@@ -8,6 +8,7 @@ const promise1 = new Promise((resolve, reject) => {
   	resolve(3)
   },3000)
 })
+promise1.then((res) => console.log(res))
 
 let a = ()=>{console.log(10)
 	console.log(10)
@@ -19,9 +20,8 @@ let a = ()=>{console.log(10)
 	console.log(10)
 	console.log(10)
 	}
+	a();
 
 
 
-promise1.then((res) => console.log(res))
 
-a();

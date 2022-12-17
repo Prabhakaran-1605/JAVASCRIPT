@@ -30,8 +30,7 @@ console.log(a.get_Amount())
 let b = new Account (101, "prabhuji", 10000)
 console.log(b)
 console.log(b.get_Amount())
-a.constructor(id,Name,Amount)  
-console.log(a.constructor())
+
 
 
 
